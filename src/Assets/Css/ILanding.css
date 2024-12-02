@@ -2,6 +2,7 @@
 .accordion-button:hover{
     color:rgb(11, 143, 250);
     background-color: none;
+    border: none;
 }
 
 .icons{
@@ -14,24 +15,35 @@
     text-align: center;
 
 }
-.pass1{
-    position: relative;
-}
-.pass{
-    position: absolute;
-    margin-left: 120px;
-    /* text-align: center; */
-    /* contain: content; */
-    margin-top: -15px;
-    /* padding-top: 3px; */
-    color: blue;
-    background-color: white;
-    height: 35px;
-    width: 120px;
-    /* font-weight: 3px; */
-    
-}
+
+
+.accordion-button:focus{
+    box-shadow: var(--bs-accordion-btn-focus-box-shadow);
+    box-shadow:none;
+    background-color: none;
+};
 
 .plan:hover{
     box-shadow:3px 3px 5px 3px rgb(222, 222, 222);
+}
+.pass3{
+    color: black;
+}
+.pass3:hover{
+    color:rgb(11, 143, 250);
+    /* box-shadow:3px 3px 5px 3px rgb(222, 222, 222); */
+}
+
+.icon{
+    border: 1px solid rgb(178, 178, 178);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.icon:hover{
+    border: 1px solid rgb(2, 133, 221);
+    color: rgb(2, 133, 221);
 }
