@@ -6,7 +6,7 @@ import { TfiEmail } from "react-icons/tfi";
 const Contact = () => {
   return (
     <>
-      <Container fluid  style={{ backgroundColor: " #f0f0f0f0" }}>
+      <Container fluid  style={{backgroundColor:"#eff5fb"}}>
         <Container className="pb-5 pt-5" >
           <Row>
             <Col md={12} className="text-center " data-wow-delay="0.5s">

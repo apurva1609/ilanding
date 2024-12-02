@@ -1,32 +1,32 @@
-// import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Navbar from './Components/Navbar';
-// import Navbar from "./Components/Navbar";
 import Contact from './Components/Contact';
 import Pricing from './Components/Pricing';
 import Footer from './Components/Footer';
 import Hero from './Components/Hero';
-// import ILanding from "./Assets/Css/ILanding.css";
+// import About from './Components/About';
+// import Features from './Components/Features';
+// import Services from './Components/Services';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-// import { Navbar } from 'react-bootstrap';
 import MyNavbar from './Components/MyNavbar';
 function App() {
   return (
     <>
       <BrowserRouter>
-        {/* <Navbar/> */}
         <MyNavbar/>
-        <Hero/>
+        {/* <Hero/> */}
           <Routes>
-            {/* <Route path='/Home' element={<Hero/>}/> */}
-            <Route path='/Pricing' element={<Pricing/>}/>
-            <Route path='/Contact' element={<Contact/>}/>
+            <Route path='/Hero' element={<Hero/>}/>
+            {/* <Route path='/About' element={<About/>}/> */}
+            {/* <Route path='/Features' element={<Features/>}/> */}
+            {/* <Route path='/Services' element={<Services/>}/> */}
+            <Route path='/pricing' element={<Pricing/>}/>
+            <Route path='/contact' element={<Contact/>}/>
           </Routes>
         <Footer/>
      </BrowserRouter>
-     {/* <Footer/> */}
+    
      
     </>
    

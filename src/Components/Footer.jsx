@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <Container fluid className="bg-white ">
-        <Container className="mt-4">
+        <Container className="mt-4 bg-white">
           <Row>
             <Card className="border-0">
               <Card.Body>

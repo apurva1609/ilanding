@@ -7,7 +7,7 @@ import '../Assets/Css/ILanding.css';
 const Pricing = () => {
   return (
     <>
-      <Container fluid style={{ backgroundColor: " #f0f0f0f0" }}>
+      <Container fluid style={{backgroundColor:"#eff5fb"}} >
         <Container className="mb-5">
           <Row>
             <Col
@@ -32,7 +32,7 @@ const Pricing = () => {
 
             {/* Card first */}
             <Col lg={4} md={12} className="g-4">
-              <Card className="plan border-0 rounded-4 h-100 mt-2 lg-mt-0 aos-init aos-animate">
+              <Card className="plan border-0 rounded-4 h-100 mt-2 lg-mt-0 aos-init aos-animate ">
                 <Card.Body className="ms-3">
                   <h3 className="pt-3">Basic Plan</h3>
                   <Row>
@@ -85,8 +85,8 @@ const Pricing = () => {
                 <div className="d-flex justify-content-center text-center">
                   <p className="position-absolute text-primary bg-white px-2 py-1 rounded-pill " style={{marginTop:"-15px"}}>Most Popular</p>
                 </div>
-                <Card.Body className="ms-3">
-                  <h3 className="pt-3">Standard Plan</h3>
+                <Card.Body className="ms-3 ">
+                  <h3 className="pt-3 bg-primary">Standard Plan</h3>
                   <Row>
                     <Col className="my-2">
                       <h4 className="d-inline ">

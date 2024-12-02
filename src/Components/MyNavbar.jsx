@@ -1,10 +1,11 @@
 import React from 'react';
 import '../Assets/Css/MyNavbar.css';
 import { Container, Row, Col, Nav, Navbar, NavDropdown, Dropdown, Button } from 'react-bootstrap'
-
+import {Link} from 'react-router-dom';
 const MyNavbar = () => {
     return (
         <>
+        <Container fluid style={{backgroundColor:"#eff5fb"}}>
             <Container>
                 <Row>
                     <Col md={12} xs={12} lg={12}>
@@ -12,16 +13,16 @@ const MyNavbar = () => {
                             
                             <Navbar expand="lg" variant='white' className="bg-white text-dark rounded-pill my-3 px-3 py-1 custom-navbar d-flex justify-content-center align-items-center">
                                 <Container className='bg-white d-flex justify-content-between'>
-                                    <Navbar.Brand href="#home" className='fs-4 bg-white '>iLanding</Navbar.Brand>
+                                    <Navbar.Brand href="#home" className='fs-4  '>iLanding</Navbar.Brand>
                                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                     <Navbar.Collapse className='bg-white' id="basic-navbar-nav">
                                         <Nav className="mx-auto">
-                                            <Nav.Link className='text-primary bg-white fs-6 px-2' href="#Hero">Home</Nav.Link>
-                                            <Nav.Link className='text-dark bg-white px-2' href="#about">About</Nav.Link>
-                                            <Nav.Link className='text-dark bg-white px-2' href="#features">Features</Nav.Link>
-                                            <Nav.Link className='text-dark bg-white px-2' href="#services">Services</Nav.Link>
-                                            <Nav.Link className='text-dark bg-white px-2' href="#pricing">Pricing</Nav.Link>
-                                            <NavDropdown className='text-dark bg-white px-2' title="Dropdown" id="basic-nav-dropdown">
+                                            <Link to="/Hero" className='text-decoration-none '> <Nav.Link className='text-primary  fs-6 px-2' href="#Hero">Home</Nav.Link></Link>
+                                            <Link to="/About" className='text-decoration-none '><Nav.Link className='text-dark px-2' href="#about">About</Nav.Link></Link>
+                                            <Link to="/Features" className='text-decoration-none '><Nav.Link className='text-dark px-2' href="#features">Features</Nav.Link></Link>
+                                            <Link to="/Services" className='text-decoration-none '><Nav.Link className='text-dark px-2' href="#services">Services</Nav.Link></Link>
+                                            <Link to="/Pricing" className='text-decoration-none '><Nav.Link className='text-dark  bg-white px-2' href="#Pricing">Pricing</Nav.Link></Link>
+                                            <NavDropdown className='text-dark  px-2' title="Dropdown" id="basic-nav-dropdown">
 
                                                 <NavDropdown.Item href="#action/3.1">Dropdown 1</NavDropdown.Item>
 
@@ -39,7 +40,7 @@ const MyNavbar = () => {
                                                 <NavDropdown.Item href="#action/3.3">Dropdown 3</NavDropdown.Item>
                                                 <NavDropdown.Item href="#action/3.4">Dropdown 4</NavDropdown.Item>
                                             </NavDropdown>
-                                            <Nav.Link className='text-dark bg-white' href="#pricing">Contact</Nav.Link>
+                                            <Link to="/Contact" className='text-decoration-none '><Nav.Link className='text-dark bg-white' href="#Contact">Contact</Nav.Link></Link>
                                         </Nav>
                                     </Navbar.Collapse>
                                         <Button variant="primary" className='rounded-pill px-3' style={{ transition: '0.3s' }}>Get Started</Button>
@@ -49,6 +50,7 @@ const MyNavbar = () => {
                     </Col>
                 </Row>
 
+            </Container>
             </Container>
         </>
     )

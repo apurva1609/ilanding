@@ -9,23 +9,20 @@
     background-Color:hsla(0, 0%, 100%, 0.15);
     height:60px;
     width:60px;
-    /* border: 2px solid hsla(0, 0%, 100%, 0.15); */
     border-radius: 50%;
-    /* padding-left:2px;  */
     text-align: center;
-
 }
 
 
 .accordion-button:focus{
     box-shadow: var(--bs-accordion-btn-focus-box-shadow);
     box-shadow:none;
-    background-color: none;
 };
 
 .plan:hover{
     box-shadow:3px 3px 5px 3px rgb(222, 222, 222);
 }
+
 .pass3{
     color: black;
 }

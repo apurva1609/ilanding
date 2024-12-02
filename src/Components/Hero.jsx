@@ -16,8 +16,9 @@ import Hero_profile5 from '../Assets/Images/avatar-5.webp';
 const Hero = () => {
     return (
         <>
+        <Container fluid style={{backgroundColor:"#eff5fb"}} className='mb-5'>
             <Container className='Hero-background'>
-                <Row className='mt-5'>
+                <Row className='pt-5'>
                     <Col xs={12} md={6} lg={6}>
                         <Button className="btn bg-primary-subtle text-primary rounded-pill d-flex align-items-center justify-content-center" variant="">
                             <IoIosSettings className="icon-responsive mx-1 bg-primary-subtle" size={24} />
@@ -94,7 +95,7 @@ const Hero = () => {
                     </Col>
 
                 </Row>
-                <Row className='mt-5 gy-4'>
+                {/* <Row className='mt-5 gy-4'>
                     <Col xs={12} md={3} lg={3} className='mb-2'>
                         <Card className='border-0'>
                             <Card.Body>
@@ -156,7 +157,7 @@ const Hero = () => {
                         </Card>
                     </Col>
 
-                </Row>
+                </Row> */}
                 {/* <Row className='my-3'>
                     
                     
@@ -175,6 +176,77 @@ const Hero = () => {
                         </Card>
                     </Col>
                 </Row> */}
+                <Row className='my-5 py-5 gy-4'>
+                        <Col md={12}>
+                            <Card className='border-0'>
+                                <Card.Body>
+                                    <Row>
+                                        <Col xs={12} md={3} lg={3} className='mb-2'>
+                                            <Card className='border-0'>
+                                                <Card.Body>
+                                                    <div className="stat-items d-flex justify-content-center align-items-center">
+                                                        <div className="stat-icon bg-primary-subtle text-primary rounded-circle fs-5 p-3 me-3  d-flex justify-content-center align-items-center">
+                                                            <BsTrophy />
+                                                        </div>
+                                                        <div className="stat-content">
+                                                            <h4>3x Won Awards</h4>
+                                                            <p className='mb-0'>Vestibulum ante ipsum</p>
+                                                        </div>
+                                                    </div>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                        <Col xs={12} md={3} lg={3} className='mb-2'>
+                                            <Card className='border-0'>
+                                                <Card.Body className=''>
+                                                    <div className="stat-items d-flex justify-content-center align-items-center">
+                                                        <div className="stat-icon bg-primary-subtle text-primary rounded-circle fs-5 p-3 me-3  d-flex justify-content-center align-items-center">
+                                                            <BsBriefcase />
+                                                        </div>
+                                                        <div className="stat-content">
+                                                            <h4>6.5k Faucibus</h4>
+                                                            <p className='mb-0'>Nullam quis ante</p>
+                                                        </div>
+                                                    </div>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                        <Col xs={12} md={3} lg={3} className='mb-2'>
+                                            <Card className='border-0'>
+                                                <Card.Body>
+                                                    <div className="stat-items d-flex justify-content-center align-items-center">
+                                                        <div className="stat-icon bg-primary-subtle text-primary rounded-circle fs-5 p-3 me-3  d-flex justify-content-center align-items-center">
+                                                            <GoGraph />
+                                                        </div>
+                                                        <div className="stat-content">
+                                                            <h4 className=''>80k Mauris</h4>
+                                                            <p className='mb-0'>Etiam sit amet orci</p>
+                                                        </div>
+                                                    </div>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                        <Col xs={12} md={3} lg={3} className='mb-2'>
+                                            <Card className='border-0'>
+                                                <Card.Body>
+                                                    <div className="stat-items d-flex justify-content-center align-items-center">
+                                                        <div className="stat-icon bg-primary-subtle text-primary rounded-circle fs-5 p-3 me-3  d-flex justify-content-center align-items-center">
+                                                            <BsAward />
+                                                        </div>
+                                                        <div className="stat-content">
+                                                            <h4>6x Phasellus</h4>
+                                                            <p className='mb-0'>Vestibulum ante ipsum</p>
+                                                        </div>
+                                                    </div>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                    </Row>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+            </Container>
             </Container>
         </>
     )
