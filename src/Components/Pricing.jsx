@@ -81,13 +81,10 @@ const Pricing = () => {
 
             {/* Card second */}
             <Col lg={4} md={12} className="g-4">
-            {/* <Row>
-            <Button className="bg-white text-primary border-0 rounded-pill" >Most Popular</Button>
-            </Row> */}
-              <Card className="pass1 text-white bg-primary rounded-4 border border-0 h-100 mt-2 lg-mt-0 aos-init aos-animate">
-                <p className="pass  pt-1 text-center rounded-pill">Most Popular</p>
-                {/* <Button className="bg-white text-primary rounded-pill w-50 fs-6">Most Popular</Button> */}
-                {/* <Button variant="light" className="bg-white text-primary rounded-pill w-50 fs-6 ">Most Popular</Button> */}
+              <Card className="pass1 position-relative text-white bg-primary rounded-4 border border-0 h-100 mt-2 md-mt-0 aos-init aos-animate">
+                <div className="d-flex justify-content-center text-center">
+                  <p className="position-absolute text-primary bg-white px-2 py-1 rounded-pill " style={{marginTop:"-15px"}}>Most Popular</p>
+                </div>
                 <Card.Body className="ms-3">
                   <h3 className="pt-3">Standard Plan</h3>
                   <Row>
@@ -101,7 +98,6 @@ const Pricing = () => {
                       <p className="d-inline ms-2">/month</p>
                     </Col>
                   </Row>
-
                   <p className="py-3">
                     At vero eos et accusamus et iusto odio dignissimos ducimus
                     qui blanditiis praesentium voluptatum.
@@ -345,7 +341,8 @@ const Pricing = () => {
               est laborum.
             </p>
             <Button href="#"
-              className=" btn btn-outline-light bg-primary text-white rounded-pill py-2 px-5 mt-3"
+              className=" btn btn-outline-light bg-primary 
+              text-white rounded-pill py-2 px-5 mt-3"
             >
               Call To Action
             </Button>

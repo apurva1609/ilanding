@@ -6,8 +6,8 @@ import { TfiEmail } from "react-icons/tfi";
 const Contact = () => {
   return (
     <>
-      <Container fluid style={{ backgroundColor: " #f0f0f0f0" }}>
-        <Container>
+      <Container fluid  style={{ backgroundColor: " #f0f0f0f0" }}>
+        <Container className="pb-5 pt-5" >
           <Row>
             <Col md={12} className="text-center " data-wow-delay="0.5s">
               <h1>Contact</h1>
@@ -25,13 +25,12 @@ const Contact = () => {
               </p>
             </Col>
           </Row>
-
-          <Row className="mt-5 pt-3 m-0 p-0 ">
+        
+          <Row className="mt-5 pt-3 m-0 p-0  pb-5 ">
             {/* card first */}
-            <Col lg={5} md={12} sm={12} xs={12} className=" mb-4  mb-md-0 d-flex"
-            >
+            <Col lg={5} md={12} sm={12} xs={12} className=" mb-4  mb-md-0 d-flex">
               <Card className=" h-100 bg-primary border border-0 rounded-4 text-white pt-4 ">
-                <Card.Body className="ps-5 sm-ps-0">
+                <Card.Body className="ps-5 ps-xs-0">
                   <h2 className="pb-2 ">Contact Info</h2>
                   <p className="fs-6">
                     Praesent sapien massa, convallis a pellentesque nec, egestas
@@ -50,6 +49,19 @@ const Contact = () => {
                       </p>
                     </Col>
                   </Row>
+                  {/* <Col md={12}>
+                  <div className="d-flex">
+                    <span className="icons pt-3 "><GrLocation size={25}  /></span>
+                   <span> 
+                    <h5>Our Location</h5>
+                      <p>
+                        A108 Adam Street <br />
+                        New York, NY 535022
+                      </p>
+                      </span>
+                    
+                  </div>
+                  </Col> */}
 
                 {/* icon second */}
                   <Row className="pt-3 ps-2">
