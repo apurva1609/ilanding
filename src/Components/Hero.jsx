@@ -16,7 +16,7 @@ import Hero_profile5 from '../Assets/Images/avatar-5.webp';
 const Hero = () => {
     return (
         <>
-        <Container fluid style={{backgroundColor:"#eff5fb"}} className='mb-5'>
+        <Container fluid style={{backgroundColor:" #F3F9FF"}} className='mb-5'>
             <Container className='Hero-background'>
                 <Row className='pt-5'>
                     <Col xs={12} md={6} lg={6}>
