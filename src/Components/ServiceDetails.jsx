@@ -92,12 +92,14 @@ const ServiceDetails = () => {
                     </Card.Body>
                   </Card>
 
-                  <Card className="border-0 rounded-0 text-start shadow p-3 mb-3 bg-body rounded">
+                  <Card className="border-0 rounded-0  shadow p-3 mb-3 bg-body rounded">
                     <Card.Body>
                       <ListGroup variant="flush">
-                        <Card.Header className="border-0 rounded-0 text-start">
-                          Download Catalog
-                        </Card.Header>
+                        <ListGroup.Item>
+                        {/* <Card.Header className="border-0 rounded-0 text-start"> */}
+                         <h4 > Download Catalog</h4>
+                        {/* </Card.Header> */}
+                        </ListGroup.Item>
                         <ListGroup.Item>
                           <a
                             href="#"
