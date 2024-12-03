@@ -22,7 +22,7 @@ const MyNavbar = () => {
                                             <Link to="/Features" className='text-decoration-none '><Nav.Link className='text-dark px-2' href="#features">Features</Nav.Link></Link>
                                             <Link to="/Services" className='text-decoration-none '><Nav.Link className='text-dark px-2' href="#services">Services</Nav.Link></Link>
                                             <Link to="/Pricing" className='text-decoration-none '><Nav.Link className='text-dark  bg-white px-2' href="#Pricing">Pricing</Nav.Link></Link>
-                                            <NavDropdown className='text-dark  px-2' title="Dropdown" id="basic-nav-dropdown">
+                                            <NavDropdown className='text-dark  px-2' title="Dropdown" id="basic-Arrnav-dropdown">
 
                                                 <NavDropdown.Item href="#action/3.1">Dropdown 1</NavDropdown.Item>
 

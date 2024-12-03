@@ -18,7 +18,9 @@
     box-shadow: var(--bs-accordion-btn-focus-box-shadow);
     box-shadow:none;
 };
-
+.plan{
+    border: none;
+}
 .plan:hover{
     box-shadow:3px 3px 5px 3px rgb(222, 222, 222);
 }

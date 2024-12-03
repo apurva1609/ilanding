@@ -8,6 +8,7 @@ const Pricing = () => {
   return (
     <>
       <Container fluid style={{backgroundColor:"#eff5fb"}} >
+        
         <Container className="mb-5">
           <Row>
             <Col
