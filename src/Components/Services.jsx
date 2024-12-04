@@ -14,7 +14,7 @@ import "../Assets/Css/Services.css";
 const Services = () => {
   return (
     <>
-      <Container fluid className='back-color '>
+      {/* <Container fluid className='back-color '> */}
         <Container>
         <Row className=' py-5 p-3'>
           <div className='text-center'>
@@ -115,7 +115,7 @@ const Services = () => {
           </Row>
         </Row>
         </Container>
-      </Container>
+      {/* </Container> */}
 
     </>
   )

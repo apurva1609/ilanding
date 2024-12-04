@@ -7,7 +7,7 @@ import '../Assets/Css/ILanding.css';
 const Pricing = () => {
   return (
     <>
-      <Container fluid style={{backgroundColor:" #F3F9FF"}} >
+      
         
         <Container className="mb-5">
           <Row>
@@ -325,7 +325,7 @@ const Pricing = () => {
             </Col>
           </Row>
         </Container>
-      </Container>
+     
 
       
 

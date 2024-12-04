@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 const MyNavbar = () => {
     return (
         <>
-        <Container fluid style={{backgroundColor:" #F3F9FF"}}>
+        
             <Container>
                 <Row>
                     <Col md={12} xs={12} lg={12}>
@@ -51,7 +51,7 @@ const MyNavbar = () => {
                 </Row>
 
             </Container>
-            </Container>
+            
         </>
     )
 }
